@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="garciaponce.miguel"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:icon="@drawable/remsyslogo"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrearHost"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VerScript"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrearFichero"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WOL"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".CrearScript"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navegador"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Scripts"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ListaHosts"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrdenLibre"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrearUsuario"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RemSysv2Activity"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mainmenu"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".Infsysmenu"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+               
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfDiscos"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfRed"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfSisOp"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".InfMem"
+            android:label="@string/app_name" 
+            >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfProcesos"
+            android:label="@string/app_name" 
+            >
+             
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity>
+        
+        <service android:name="Conexion"></service>
+    </application>
+
+</manifest>

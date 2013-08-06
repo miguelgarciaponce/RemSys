@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<item android:id="@+id/menuhost1" android:title="Conectar"></item>
+<item android:id="@+id/menuhost2" android:title="Eliminar"></item>
+<item android:id="@+id/menuhost3" android:title="Encender"></item>
+ 
+</menu>

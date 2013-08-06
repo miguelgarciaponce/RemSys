@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fondotitulo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/Titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Menú Principal"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/BontonInfSistema"
+                        android:layout_width="174dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/botoninfsistema"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/BotonProcesos"
+                        android:layout_width="174dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/botonprocesos"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/BotonNavegacion"
+                        android:layout_width="174dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/botonnavegacion"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/BotonOrdenLibre"
+                        android:layout_width="174dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/botonordenlibre"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/BotonScripts"
+                        android:layout_width="174dp"
+                        android:layout_height="54dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/botonscripts"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom" >
+
+                    <Button
+                        android:id="@+id/BotonReiniciar"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="0.00"
+                        android:background="@drawable/iconoreinciar"
+                        android:textColor="#FFFFFF" />
+
+                    <Button
+                        android:id="@+id/BotonApagar"
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="0.00"
+                        android:background="@drawable/iconoapagar"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

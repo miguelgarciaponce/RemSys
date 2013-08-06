@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e0e0e0"
+    android:orientation="vertical" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondoruta" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/discoduro" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.72"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Nombre:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/NombreDisco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tipo:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TipoDisco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Tamaño Total : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TamTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Ocupado:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/PorcentajeOcupado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="14px" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

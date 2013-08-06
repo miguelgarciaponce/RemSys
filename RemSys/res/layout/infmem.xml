@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fondotitulo"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Información memoria del sistema"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="#DBDBDB"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnMb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.12"
+                    android:text="MB" />
+
+                <Button
+                    android:id="@+id/btnKb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.12"
+                    android:text="KB" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Cantidad total de memoria física:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16px"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/MemFisTot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Memoria física disponible:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16px"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/MemFisDis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Tam. maximo memoria virtual:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16px"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/MemVirTot"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp" >
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Memoria virtual disponible:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16px"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/MemVirDis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15px" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp" >
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:text="Memoria virtual en uso:"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="16px"
+                            android:textStyle="bold"
+                            android:typeface="sans" />
+
+                        <TextView
+                            android:id="@+id/MemVirUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#FFFFFF"
+                            android:textSize="15px" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

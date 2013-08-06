@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+<item android:id="@+id/menuscript1" android:title="Ejecutar"></item>
+<item android:id="@+id/menuscript2" android:title="Eliminar"></item>
+<item android:id="@+id/menuscript3" android:title="Ver Script"></item>
+ 
+</menu>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_gravity="center" android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fondotitulo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Login"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="16dp" android:textStyle="bold"/>
+    </LinearLayout>
+
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:text="Usuario"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editTextUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textContrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Contraseña"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editTextContrasena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical" android:gravity="center">
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/BotonEntrar"
+                        android:layout_width="130dp"
+                        android:layout_height="46dp"
+                        android:background="@drawable/botonentrar" />
+
+                    <ImageButton
+                        android:id="@+id/BotonAgregar"
+                        android:layout_width="146dp"
+                        android:layout_height="43dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/botonagregar" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

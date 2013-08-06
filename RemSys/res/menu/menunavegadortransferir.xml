@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/menunavegadorTransferir" android:title="Transferir a SD-Card"></item>
+<item android:id="@+id/menunavegadorEliminar" android:title="Eliminar"></item>
+<item android:id="@+id/menunavegadorCortar" android:title="Cortar"></item>
+<item android:id="@+id/menunavegadorCopiar" android:title="Copiar"></item>
+<item android:id="@+id/menunavegadorRenombrar" android:title="Renombrar"></item>
+
+</menu>

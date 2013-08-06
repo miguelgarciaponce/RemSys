@@ -2,8 +2,10 @@ RemSys
 ======
 
 In the root folder you can find the installable files 
-	-> RemSysv2.apk (Android installable file)
-	-> Servidor.jar (Java executable file belonging to the Server)
+<br/>
+-> RemSysv2.apk (Android installable file)
+<br/>
+-> Servidor.jar (Java executable file belonging to the Server)
 
 Their sources are in RemSys and Server folder respectively.
 
